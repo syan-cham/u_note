@@ -15,9 +15,25 @@ release = 'V0.0.9'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
- 'recommonmark',
- 'sphinx_markdown_tables'
+#  'recommonmark',
+ 'sphinx_markdown_tables',
+ 'myst_parser',
+ 'sphinxcontrib.mermaid'
 ]
+
+# 启用myst的额外功能
+myst_enable_extensions = [
+    "colon_fence",  # 替换 "mermaid" 为 "colon_fence"
+    "dollarmath",   # 支持 LaTeX 数学公式
+    "tasklist",     # 支持任务列表
+    "deflist"       # 支持定义列表
+]
+
+# 配置 myst-parser 识别 ```mermaid 代码块
+myst_fence_as_directive = ["mermaid"]
+# Mermaid 配置
+mermaid_params = ['--theme', 'default']
+
 
 templates_path = ['_templates']
 exclude_patterns = []
