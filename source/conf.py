@@ -18,7 +18,8 @@ extensions = [
 #  'recommonmark',
  'sphinx_markdown_tables',
  'myst_parser',
- 'sphinxcontrib.mermaid'
+ 'sphinxcontrib.mermaid',
+ 'sphinx_copybutton'
 ]
 
 # 启用myst的额外功能
