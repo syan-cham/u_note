@@ -22,18 +22,18 @@ extensions = [
  'sphinx_copybutton'
 ]
 
-# 启用myst的额外功能
-myst_enable_extensions = [
+
+myst_enable_extensions = [ # 启用myst的额外功能
     "colon_fence",  # 替换 "mermaid" 为 "colon_fence"
     "dollarmath",   # 支持 LaTeX 数学公式
     "tasklist",     # 支持任务列表
     "deflist"       # 支持定义列表
 ]
 
-# 配置 myst-parser 识别 ```mermaid 代码块
-myst_fence_as_directive = ["mermaid"]
-# Mermaid 配置
-mermaid_params = ['--theme', 'default']
+
+myst_fence_as_directive = ["mermaid"] # 配置 myst-parser 识别 ```mermaid 代码块
+
+mermaid_params = ['--theme', 'default'] # Mermaid 配置
 
 
 templates_path = ['_templates']
