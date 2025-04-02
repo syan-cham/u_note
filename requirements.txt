@@ -2,4 +2,8 @@ sphinx_rtd_theme
 recommonmark
 sphinx_markdown_tables
 sphinx-autobuild
+myst-parser
 sphinxcontrib-mermaid
+sphinx_copybutton
+
+
