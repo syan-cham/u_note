@@ -27,7 +27,8 @@ myst_enable_extensions = [ # 启用myst的额外功能
     "colon_fence",  # 替换 "mermaid" 为 "colon_fence"
     "dollarmath",   # 支持 LaTeX 数学公式
     "tasklist",     # 支持任务列表
-    "deflist"       # 支持定义列表
+    "deflist",       # 支持定义列表
+    "html_image",
 ]
 
 
