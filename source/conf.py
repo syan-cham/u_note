@@ -65,4 +65,10 @@ html_logo = "./_static/logo.png"
 html_static_path = ['_static']
 html_js_files = [
     'my_custom.js',
+    'js/weather_api.js',
 ]
+
+html_css_files = [
+    'css/weather.css',
+]
+

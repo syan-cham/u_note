@@ -16,7 +16,12 @@ tick...tick...tick...
      <source src="_static/audio/Your Bones.mp3" type="audio/mpeg">
      Your browser does not support the audio element.
    </audio>
-
+   
+   <div id="weather-display">
+     <div class="weather-card">
+       <p>正在获取天气数据...</p>
+     </div>
+   </div>
 
 .. toctree::
    :maxdepth: 2
