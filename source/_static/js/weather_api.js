@@ -106,6 +106,9 @@ function updateWeatherDisplay(weather) {
 // Get weather data immediately after page loads
 document.addEventListener('DOMContentLoaded', function() {
     fetchWeatherData();
-    // Update weather data every hour
-    setInterval(fetchWeatherData, 3600000);
+    // // Update weather data every hour
+    // setInterval(fetchWeatherData, 3600000);
+    
+    // Update weather data every week
+    setInterval(fetchWeatherData, 604800000);
 });
