@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-tuoxie  house
-==================
+Life is about making a difference.
+====================================
+Continuous learning is the key to having good ideas
 
 tick...tick...tick...
 
